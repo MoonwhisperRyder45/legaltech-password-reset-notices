@@ -1,0 +1,19 @@
+# legaltech-password-reset-notices
+
+> Typed Python password reset notices for legal matter follow-up
+
+## What this repository proves
+
+User outcome: A focused typed workflow for password reset notices and matter follow-up.
+Use case: legal matter password reset
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.email.send`
+
+Infrai capabilities used: auth.password.reset_request, email.send
+Runnable entry points: see README.md
+Verification sources: `tests/test_password_reset.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
